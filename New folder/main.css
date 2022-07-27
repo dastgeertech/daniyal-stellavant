@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+}
+.pic1{
+    width: 100%;
+    height: 152vh;
+    position: absolute;
+
+}
+
+.transperent{
+    background-color: black;
+    opacity: 90%;
+    width: 100%;
+    height: 155vh;
+    position: absolute;
+}
+.contain{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.im4{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+    opacity: 100%;
+    position: absolute;
+    height: 110vh;
+    width: 100%;
+}
+
+/* .contain{
+    max-width: 1200px;
+    margin: 40px auto;
+    display: block;
+} */
+
+.fle{
+    display: flex;
+    position: relative;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.fle ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+
+color: #FFFFFF;
+
+}
+
+ul li{
+    margin-left: 30px;
+    margin-top: 150px;
+   
+}
+
+ul{
+    margin-right: 30px;
+
+}
+
+
+.rosa{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 49px;
+color: #FFFFFF;
+margin-left: 120px;
+border-bottom: 4px solid white;
+margin-top: 140px;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gold{
+    font-family: 'Italianno';
+    position: relative;
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+margin-top: 18vh;
+color: #BAAE3E;
+/* line-height: 1; */
+}
+.silver{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+position: relative;
+color: #FFFFFF;
+line-height: 10px;
+margin-left: -20px;
+
+}
+
+.line{
+    width: 280px;
+background-color: white;
+    height: 3px;
+    position: relative;
+margin-top: 30px;
+}
+
+.ico{
+    position: relative;
+    color: #BAAE3E;
+}
+.para{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 37px;
+position: relative;
+color: #FFFFFF;
+}
+
+
+.gri{
+    width: 100%;
+    background-image: url(cement.png);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    position: relative;
+    margin-top: 25.210084033613445vh;
+    height: 55vh;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 80px;
+}
+
+.food{
+   
+    width: 431px;
+    height: 350px;
+}
+.text{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.biz{
+    font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+color: #BAAE3E;
+line-height: 50px;
+}
+
+.hik{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #404040;
+
+
+}
+.para2{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+width: 500px;
+color: #515151;
+margin-top: 70px;
+
+}
+.hak{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+margin-top: 40px;
+color: #BAAE3E;
+text-decoration: underline;
+}
+
+.container2{
+    position: relative;
+}
+.pic2{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+}
+
+.transperent2{
+    background-color: black;
+    opacity: 90%;
+    width: 100%;
+    height: 156vh;
+    position: absolute;
+}
+.contain2{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.rd{
+    background-image: url(cement2.png);
+    width: 100%;
+    height:95vh;
+    position: relative;
+}
+.tex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bug2{
+    position: relative;
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+margin-top: 40px;
+/* identical to box height */
+
+
+color: #BAAE3E;
+
+}
+.lorem2{
+    position: relative;
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+
+.gris{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 53vh ;
+    gap: 30px;
+    column-gap: 50px;
+    margin-top: 40px;
+}
+.gris div{
+   background-color: #202020;
+}
+
+.food2{
+    width: 100%;
+}
+
+.food3{
+    width: 100%;
+}
+
+.food4{
+    width: 100%;
+}
+
+
+.orman{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 38px;
+
+color: #FFFFFF;
+}
+
+.header5{
+    width: 90%;
+    margin: 0 auto;
+  
+}
+
+.dak{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-left: 10px;
+color: #707070;
+}
+
+.sip{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #BAAE3E;
+text-decoration: underline;
+margin-left: 120px;
+}
+.ta{
+    display: flex;
+    margin-top: 10px;
+}
+.sa{
+    display: flex;
+    margin-top: 15px;
+
+
+}
+
+
+.text4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.men{
+    font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 80px;
+color: #BAAE3E;
+}
+.kes{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+color: #686868;
+}
+.ips{
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #585555;
+margin-top:50px ;
+}
+.menuw{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: #BAAE3E;
+text-decoration: underline;
+margin-top: 30px;
+
+}
+
+.gri2{
+    
+    width: 100%;
+    background-image: url(cement.png);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    margin-top: 5.210084033613445vh;
+    height: 55vh;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 80px;
+}
+
+.imgo{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 220px 220px;
+    grid-template-rows: 150px 150px;
+    gap: 20px;
+}
+
+.imgo img{
+    width: 220px;
+    height: 150px;
+}
+.contain3{
+    position: relative;
+}
+.pic3{
+    width: 100%;
+    height: 152vh;
+    opacity: 180%;
+    position: relative;
+
+}
+.transperent3{
+    background-color: black;
+    opacity: 90%;
+    width: 100%;
+    height: 155vh;
+    position: absolute;
+
+}
